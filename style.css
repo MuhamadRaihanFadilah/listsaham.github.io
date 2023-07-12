@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+h1{
+  color: #202124;
+  font-size: 24px;
+  font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.3333;
+  word-break: break-word;
+}
+
+a{
+  font-size: 14px;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  color: #1a73e8;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: .25px;
+  text-decoration: none;
+}
+
+input{
+  border-radius: 4px;
+  color: #202124;
+  font-size: 16px;
+  height: 28px;
+  margin: 0 !important;
+  padding: 13px 15px;
+  z-index: 1;
+}
+
+.mb{
+  margin-bottom: 60px;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.containerr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerr a{
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: .875rem;
+  letter-spacing: .0107142857em;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.mt-32{
+  margin-top: 32px;
+}
+
+.login-form .containerr button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100px !important; /* Ubah nilai padding untuk menyesuaikan ukuran tombol */
+  min-width: 80px;
+
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: .875rem;
+  letter-spacing: .0107142857em;
+  font-weight: 500;
+  text-transform: none;
+}
+
+
+
+.container p{
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  color: #202124;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+} 
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+}
+
+
+.container .left p{
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.4286;
+}
+
+.container .left{
+  text-align: left !important;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #4285f4;
+  cursor: pointer;
+}
