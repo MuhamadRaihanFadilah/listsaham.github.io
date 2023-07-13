@@ -1,11 +1,29 @@
 body {
   margin: 0;
   padding: 0;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.tengah{
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #fff;
+}
+
+header{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 14px;
+  background-color: yellow;
+  color: gray;
+  font-weight: 800;
 }
 
 h1{
